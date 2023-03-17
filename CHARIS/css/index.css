@@ -1,0 +1,1044 @@
+body {
+    margin: 0 auto;
+    padding: 0px;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 90%;
+    height: auto;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(39, 53, 69);
+    font-weight: bold;
+}
+
+a:hover {
+    color:  rgb(100, 190, 230);
+}
+.image {
+    height:25px;
+    width: 25px;
+    padding: 0px;
+    margin-right: 10px;
+}
+
+header {
+    width: 100%;
+    height: auto;
+    background-color: rgb(100, 190, 230);
+    align-items: center;
+    justify-content: center;
+}
+
+.first {
+    height: 80px;
+}
+
+header .first .first-a {
+    flex: 1;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+header .first .first-a .a1 h4 {
+    color: white;
+    font-size: 17px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    margin-right: 10px;
+}
+
+header .first .first-a .a2 h4 {
+    color: white;
+    font-size: 17px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    margin-right: 10px;
+}
+ 
+
+header .first .first-b {
+    flex: 1;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.last {
+    color: white;
+    height: 80px;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(220, 60, 58);
+}
+
+
+nav {
+    width: 100%;
+    height: 80px;
+    position: sticky;
+    top: 0px;
+    background-color: white;
+    z-index: 5;
+}
+
+nav .nav span {
+    flex: 1;
+}
+
+nav .nav .logo img {
+    height: 50px;
+    width: 180px;
+}
+
+nav .nav .list {
+    flex: 3;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+}
+
+nav .nav .list ul {
+    flex: 20;
+    gap: 40px;
+    justify-content: flex-end;
+    height: 50px;
+    padding: 0px;
+}
+
+nav .nav .list ul li {
+    font-size: 17px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    height: 50px;
+    padding: 0px;
+    margin: 0px;
+    color: rgb(35, 36, 34);
+}
+
+nav .nav .list ul li:hover {
+    border-bottom: 4px solid brown;
+}
+
+.first-child {
+    color:  rgb(100, 190, 230);
+    margin-top: 15px;
+}
+nav .nav .list span {
+    flex: 1;
+    justify-content: flex-end;
+}
+
+main {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url('../images/teacher-helping-students-reading-skills-6081832.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.opacity {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    position: absolute;
+    opacity: 0.2;
+    top:1px;
+    /* z-index: -1; */
+}
+
+.main {
+    width: 100%;
+    height: auto;
+}
+.main-1 {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.main-1 h2 {
+    color: white;
+    font-size: 150px;
+    font-weight: bolder;
+    z-index: 2;
+}
+
+.main-1 h3 {
+    color: rgb(255, 140, 36);
+    z-index: 2;
+    font-size: 90px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    margin-top: -130px;
+}
+
+.main-1 h4 {
+    z-index: 2;
+    color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-top: -80px;
+}
+
+.main-1 button {
+    background-color: rgb(31, 199, 241);
+    border: none;
+    width: 150px;
+    height: 50px;
+    color: white;
+    z-index: 2;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: sans-serif;
+    border-radius: 6px;
+}
+
+.main-1 button:hover {
+    background-color: rgb(0, 173, 216);
+}
+section {
+    width: 100%;
+    height: auto;
+    z-index: 4;
+}
+
+section .section {
+    gap: 40px;
+}
+
+section div div.one span {
+    width: 100%;
+}
+
+section div div.one span img {
+    width: 100%;
+}
+
+section div div.one {
+    flex-direction: column;
+    flex: 1;
+    border-bottom: 2px solid rgb(31, 199, 241);
+    padding-bottom: 40px;
+}
+
+section div div.one h3 {
+    color: rgb(31, 199, 241);
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+section div div.one h5 {
+    color: rgb(39, 53, 69);
+    font-size: 15px;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-align: justify;
+}
+
+section div div.one a {
+    background-color: rgb(31, 199, 241);
+    border: none;
+    width: 150px;
+    height: 50px;
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: sans-serif;
+    border-radius: 6px;
+    margin-top: 20px;
+}
+
+section div div.ones {
+    flex-direction: column;
+    flex: 1;
+    padding-bottom: 40px;
+    border-bottom: 2px solid rgb(220, 60, 58);
+}
+
+section div div.ones span {
+    width: 100%;
+}
+
+section div div.ones span img {
+    width: 100%;
+}
+
+section div div.ones h3 {
+    color: rgb(220, 60, 58);
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+section div div.ones h5 {
+    color: rgb(39, 53, 69);
+    font-size: 15px;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-align: justify;
+}
+
+section div div.ones a {
+    background-color: rgb(220, 60, 58);
+    border: none;
+    width: 150px;
+    height: 50px;
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: sans-serif;
+    border-radius: 6px;
+    margin-top: 20px;
+}
+
+section div div.oness {
+    flex-direction: column;
+    flex: 1;
+    padding-bottom: 40px;
+    border-bottom: 2px solid rgb(255, 140, 36);
+    
+}
+
+section div div.oness span {
+    width: 100%;
+}
+
+section div div.oness span img {
+    width: 100%;
+}
+
+section div div.oness h3 {
+    color: rgb(255, 140, 36);
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+section div div.oness h5 {
+    color: rgb(39, 53, 69);
+    font-size: 15px;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-align: justify;
+}
+
+section div div.oness a {
+    background-color: rgb(255, 140, 36);
+    border: none;
+    width: 150px;
+    height: 50px;
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: sans-serif;
+    border-radius: 6px;
+    margin-top: 20px;
+}
+
+.paragraph {
+    width: 100%;
+    height: auto;
+    margin-top: 40px;
+}
+
+.para {
+    width: 100%;
+    height: auto;
+}
+
+.description {
+    gap: 20px;
+}
+.about-image {
+    flex: 1;
+    justify-content: flex-start;
+}
+
+.about-image span {
+    margin-right: 20px;
+}
+
+.about-image h4 {
+    color: rgb(39, 53, 69);
+    font-size: 25px;
+}
+.writing {
+    flex: 2;
+}
+
+.visit {
+    width: 100%;
+    height: 250px;
+    background-color: rgb(39, 39, 39);
+    margin-top: 30px;
+}
+
+.center {
+    gap: 20px;
+}
+
+.center .tour {
+    flex: 1;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.center .tour div h3 {
+    color: white;
+    margin-left: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.center .tour div h4 {
+    color: white;
+    margin-left: 20px;
+    font-size: 15px;
+    text-align: justify;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+
+.center .tour div a {
+    margin-left: 20px;
+    color: rgb(207, 11, 11);
+    
+}
+
+.center .tour div a:hover {
+    color: white;
+}
+.center .food {
+    flex: 1;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.center .food div h3 {
+    color: white;
+    margin-left: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.center .food div h4 {
+    color: white;
+    margin-left: 20px;
+    font-size: 15px;
+    text-align: justify;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+
+.center .food div a {
+    margin-left: 20px;
+    color: rgb(207, 11, 11);
+    
+}
+
+.center .food div a:hover {
+    color: white;
+}
+
+
+.center .trans {
+    flex: 1;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.center .trans div h3 {
+    color: white;
+    margin-left: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.center .trans div h4 {
+    color: white;
+    margin-left: 20px;
+    font-size: 15px;
+    text-align: justify;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+
+.center .trans div a {
+    margin-left: 20px;
+    color: rgb(207, 11, 11);
+}
+
+.center .trans div a:hover {
+    color: white;
+}
+
+.news-image {
+    height: 30px;
+    width: 30px;
+}
+
+
+.news .news-content {
+    height: 100vh;
+    background-color: rgb(245, 245, 245);
+}
+
+.house {
+    width: 100%;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.news-content-1 {
+    flex: 2;
+    background-color: rgb(165, 181, 213);
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.news-content-2{
+    flex-direction: column;
+    height: 100vh;
+}
+
+.read-all {
+    width: 100%;
+    height: 100px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.read-all .news-icon {
+    margin-bottom: -30px;
+}
+
+.read-all .news-icon img {
+    margin-right: 20px;
+}
+
+.read-all h2 {
+    color: white;
+    font-weight: bolder;
+    font-family: sans-serif;
+}
+
+.parent {
+    gap: 20px;
+}
+
+.professor {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex: 1;
+}
+
+.professor ul {
+    width: 100%;
+    padding: 0px;
+    justify-content: flex-start;
+    margin: 0px;
+    margin-top: 20px;
+}
+
+.professor ul li {
+    font-size: 12px;
+    margin-right: 10px;
+    font-family: sans-serif;
+    font-weight: light;
+    color: white;
+}
+
+.professor ul li a {
+    color: white;
+}
+
+.professor h3 {
+    color: white;
+    font-family: sans-serif;
+}
+.professor span {
+    width: 100%;
+    height: 200px;
+}
+
+.professor span img {
+    width: 100%;
+    height: 200px;
+}
+
+.kindergarten {
+    flex-direction: column;
+    flex: 1;
+    margin-top: -55px;
+}
+
+.kindergarten .side-1  {
+    gap: 10px;
+    height: 80px;
+}
+.kindergarten .side-1 span {
+    flex: 1;
+    height: 80px;
+}
+
+.kindergarten .side-1 span img {
+    width: 100%;
+    height: 80px;
+}
+
+.kindergarten .side-div {
+    flex: 3;
+}
+
+.kindergarten div ul {
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    justify-content: flex-start;
+}
+
+.kindergarten .side-div ul li {
+    font-size: 12px;
+    margin-right: 10px;
+    font-family: sans-serif;
+    font-weight: light;
+    color: white;
+}
+
+.kindergarten div h3 {
+    color: white;
+    font-family: sans-serif;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.kindergarten .side-2 {
+    gap: 10px;
+    height: 80px;
+    margin-top: 10px;
+}
+
+.kindergarten .side-2 span {
+    flex: 1;
+    height: 80px;
+    width: 100%;
+}
+
+.kindergarten .side-2 span img {
+    width: 100%;
+    height: 80px;
+} 
+
+
+.kindergarten .side-2 div {
+    flex: 3;
+}
+
+.kindergarten .side-2 ul {
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    justify-content: flex-start;
+}
+
+.kindergarten .side-2 ul li {
+    font-size: 12px;
+    margin-right: 10px;
+    font-family: sans-serif;
+    font-weight: light;
+    color: white;
+}
+
+.news-content-2 {
+    flex: 1;
+}
+
+.event-1 {
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+
+.event-1 .date {
+width: 100%;
+flex: 1;
+justify-content: flex-start;
+align-items: center;
+flex-direction: column;
+height: 100px;
+padding: 0px;
+margin: 0px;
+}
+
+.event-1 .date .first-child {
+    color: red;
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: sans-serif;
+}
+
+.event-1 .reunion {
+    flex: 5;
+    height: 100px;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.event-1 .reunion h3 {
+    color: grey;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+
+.event-1 .reunion ul {
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0px;
+}
+
+.event-1 .reunion ul li {
+    color: blue;
+    padding: 0px;
+    margin-top: -20px;
+    margin-right: 10px;
+}
+
+.event-1 .reunion ul li span img {
+    margin-right: 10px;
+}
+
+.central {
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+}
+
+.central-image {
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+.contained {
+    width: 90%;
+    height: 120vh;
+    /* background-color: brown; */
+    background-image: url('../images/white.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.central .courses {
+    width: 100%;
+    height:70vh;
+    gap: 20px;
+}
+
+.central .courses div {
+    width: 100%;
+    background-color: white;
+    height: 400px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border: 1px solid grey;
+}
+
+
+.central .courses div ul {
+    width: 100%;
+    height: 200px;
+    padding: 0px;
+    padding-left: 30px;
+    margin: 0px;
+}
+
+.central .courses div ul li {
+    margin-top: 20px;
+    font-family: sans-serif;
+}
+
+.central .courses div span {
+    width: 100%;
+    height: 200px;
+}
+
+.central .courses div span img {
+    width: 100%;
+    height: 200px;
+}
+
+.central .view {
+
+    height: 50px;
+    width: 200px;
+    background-color: rgb(31, 199, 241);
+    margin-top: 20px;
+    border-radius: 5px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+
+.teachers {
+    width: 100%;
+    height: 120vh;
+    background-color: rgb(163, 215, 237);
+    padding-bottom: 50px;
+}
+
+.teachers .profile {
+    height: 120vh;
+    flex-direction: column;
+    margin-top: 50px;
+    padding-top: 20px;
+} 
+
+.teachers .profile  .personal-details {
+    gap: 10px;
+    height: 400px;
+}
+
+.teachers .profile  .personal-details .details-one {
+    padding: 0px;
+    margin: 0px;
+    flex: 1;
+    height: 400px;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.teachers .profile  .personal-details .details-one h3, h4 {
+    margin-left: 10px;
+}
+
+.teachers .profile  .personal-details .details-one ul {
+    gap: 10px;
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding-top: 20px;
+    margin: 0px;
+    padding-left: 0px;
+    margin-left: 10px;
+}
+
+.teachers .profile  .personal-details .details-one ul li {
+    padding: 0px;
+    margin: 0px;
+    color: white;
+}
+
+.teachers .profile  .personal-details .details-one span {
+    width: 100%;
+    height: 200px;
+}
+
+.teachers .profile  .personal-details .details-one span img {
+    width: 100%;
+    height: 200px;
+}
+
+.teachers .profile .instructors {
+    flex-direction: column;
+}
+
+.instructors-social {
+    width: 20px;
+    height: 20px;
+}
+
+.view-teachers {
+    height: 50px;
+    width: 200px;
+    background-color: rgb(220, 60, 58);
+    margin-top: 20px;
+    border-radius: 5px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.parents {
+    width: 100%;
+    height: 90vh;
+    position: relative;
+}
+
+.background {
+    width: 100%;
+    height: 90vh;
+    position: absolute;
+    background-color: rgb(220, 60, 58);
+    opacity: 0.6;
+    z-index: 1;
+}
+
+.testimony {
+    width: 100%;
+    height: 90vh;
+    background-image: url('../images/Mother-hugging-Son-600x400.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 2;
+    flex-direction: column;
+
+}
+
+.testimony h4 {
+    z-index: 3;
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
+
+.testimony h2 {
+    z-index: 3;
+    color: white;
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px;
+}
+
+.line-pix {
+    width: 100%;
+    height: 30vh;
+    background-color: blueviolet;
+}
+
+.line-pix span {
+    flex: 1;
+    height: 30vh;
+}
+
+.line-pix span img {
+    height: 30vh;
+    width: 100%;
+}
+
+
+.first-footer {
+    width: 100%;
+    height: 60vh;
+    background-color: rgb(24, 24, 24);
+}
+
+.first-footer .container {
+    height: 60vh;
+    padding-top: 110px;
+}
+
+.first-footer .container .thread {
+    width: 100%;
+    height: 40px;
+    gap: 30px;
+    padding: 0px;
+}
+
+.first-footer .container .thread li {
+    flex: 1;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0px;
+    margin: 0px;
+    color: white;
+    font-weight: bolder;
+    font-family: sans-serif;
+}
+
+.first-footer .container .contact {
+    gap: 30px;
+    margin-top: -30px;
+}
+
+.first-footer .container .contact ul {
+    flex: 1;
+    padding: 0px;
+    padding-bottom: 10px;
+    border-top: 2px solid rgb(220, 60, 58);
+}
+
+.first-footer .container .contact ul li {
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0px;
+    margin: 0px;
+    margin-top: 10px;
+    color: white;
+    font-family: sans-serif;
+}
+
+.first-footer .container .contact ul li a {
+    color: white;
+}
+
+.first-footer .container .contact ul li a:hover {
+    color: rgb(220, 60, 58);
+}
+
+.first-footer .container .contact .no-margin {
+    margin-top: -20px;
+    border-top: none;
+    border-bottom:2px solid rgb(220, 60, 58);
+    padding-bottom: 40px;
+    padding-top: 20px;
+}
+
+.last-footer {
+    width: 100%;
+    height: 8vh;
+    background-color: rgb(32, 32, 32);
+}
+
+.last-footer .social-media {
+    height: 8vh;
+}
+
+.end {
+    height: 8vh;
+    justify-content: space-between;
+}
+
+.end h5 {
+    color: rgb(90, 106, 116);
+}
+
+.end li {
+    margin-left: 10px;
+}
+.social-icons {
+    height: 15px;
+    width: 15px;
+}
+
+
